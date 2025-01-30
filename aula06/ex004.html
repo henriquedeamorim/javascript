@@ -6,6 +6,21 @@
   <title>Document</title>
 </head>
 <body>
-  
+  <script>
+    var nome = prompt('Qual é seu nome? ')
+      document.write(`Olá, <strong>${nome}</strong> Seu nome tem ${nome.length} letras.<br>`)
+      // s.length = diz quantos caracteres a string tem
+      document.write(`Seu nome em maiúsculas é ${nome.toUpperCase()}<br>`)
+      // s.toUpperCase() = transforma tudo para 'MAIÚSCULAS'
+      document.write(`Seu nome em minusculas é ${nome.toLowerCase()}`)
+      // S.toLoweCase() = transforma para 'minusculas'
+      //s.toFixed(2) = gera casas a mais de numeros
+      //s toFixed(2).replace('.', ',') = replace muda o elemento desejado, nesse caso . por , ex: 1500.00 para 1500,00
+      /* s.toLocateString('pt-BR', {style: 'currency: 'BRL'})
+      R$ 1,545.50' 
+      USD = dollar 
+      EUR = euro
+      */
+  </script>
 </body>
 </html>
